@@ -4,6 +4,7 @@ import 'package:stream_chat/version.dart';
 import 'package:test/test.dart';
 
 void prepareTest() {
+    print('Test')
   // https://github.com/flutter/flutter/issues/20907
   if (Directory.current.path.endsWith('/test')) {
     Directory.current = Directory.current.parent;
